@@ -21,7 +21,7 @@ const Hero = () => {
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
           We Boost the growth for{" "}
           <span className="text-blue-600 relative inline-block">
-            Startup to Fortunr 500
+            Startup to Fortune 500
             <span className="absolute bottom-0 left-0 w-full h-0.5 bg-blue-200/60"></span>
           </span>
           Companies.<span className="inline-block ml-2 animate-plus"><FcAlarmClock /></span>
@@ -29,7 +29,7 @@ const Hero = () => {
         <p className="text-gray-600 text-lg md:text-xl max-w-xl">
           Get the most accurate leads, sales people training and conversion, tools and more - all within the some one billing.
         </p>
-        <div className="flex gap-3 max-w-md">
+        <div className="flex mt-3 gap-3 max-w-md">
           <input type="email" placeholder="Email address" className="flex-1 py-4 border border-gray-200 px-6 rounded-xl focus:outline-none focus:border-blue-600 focus:ring-2 focus:ring-blue-100 transition-all"/>
           <button className="bg-blue-600 text-white px-8 py-4 rounded-xl hover:shadow-lg hover:bg-blue-700 cursor-pointer transition-all hover:shadow-blue-300"><FaLongArrowAltRight />
 </button>
