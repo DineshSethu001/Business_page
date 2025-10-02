@@ -8,7 +8,7 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <section className="container mx-auto flex flex-col md:flex-row justify-between items-center pt-44 pb-6 px-4 sm:px-6 lg:px-8">
+    <section id="home" className="container mx-auto flex flex-col md:flex-row justify-between items-center pt-44 pb-6 px-2 sm:px-4 lg:px-8">
       {/* left side */}
       <div className="w-full md:w-1/2">
         {/* star badge */}
@@ -18,7 +18,7 @@ const Hero = () => {
           </span>
           <span className="text-sm font-medium">Jump start your growth</span>
         </div>
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
+        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
           We Boost the growth for{" "}
           <span className="text-blue-600 relative inline-block">
             Startup to Fortune 500

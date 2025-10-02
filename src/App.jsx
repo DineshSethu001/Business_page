@@ -1,5 +1,5 @@
 import React from 'react'
-import { Hero, Navbar } from './components'
+import { Company_logo, Hero, Navbar } from './components'
 const App = () => {
   return (
     <main className='relative min-h-screen overflow-x-hidden'>
@@ -7,6 +7,7 @@ const App = () => {
     <div className="overflow-hidden">
         <Navbar/>
       <Hero/>
+      <Company_logo/>
     </div>
     </main>
   )
