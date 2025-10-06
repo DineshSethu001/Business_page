@@ -1,5 +1,6 @@
 import React from "react";
 import { Company_logo, Hero, Navbar, Purpose_sec } from "./components";
+import Features from "./components/Features";
 const App = () => {
   return (
     <main className="relative min-h-screen overflow-x-hidden">
@@ -9,6 +10,7 @@ const App = () => {
         <Hero />
         <Company_logo />
         <Purpose_sec/>
+        <Features/>
       </div>
     </main>
   );
