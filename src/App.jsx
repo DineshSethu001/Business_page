@@ -1,5 +1,5 @@
 import React from "react";
-import { Company_logo, Hero, Navbar, Purpose_sec } from "./components";
+import { Company_logo, Hero, Monitor, Navbar, Purpose_sec, Schedule_sec } from "./components";
 import Features from "./components/Features";
 const App = () => {
   return (
@@ -11,6 +11,8 @@ const App = () => {
         <Company_logo />
         <Purpose_sec/>
         <Features/>
+        <Schedule_sec/>
+        <Monitor/>
       </div>
     </main>
   );
